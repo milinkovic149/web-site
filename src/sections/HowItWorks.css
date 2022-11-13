@@ -1,0 +1,63 @@
+.wrapper {
+    min-height: 1020px;
+}
+
+.wrapper .hiw-img-div {
+    padding-top: 150px;
+}
+
+.wrapper .hiw-img-div img {
+    padding-top: 0;
+    height: auto;
+    width: 100%;
+}
+
+.wrapper .how-it-works-div {
+    padding-top: 247px;
+}
+
+.wrapper .how-it-works-div .description-div {
+    margin-top: 25px;
+    max-width: 580px;
+}
+
+.wrapper .how-it-works-div .steps-img {
+    padding: 0;
+}
+
+.wrapper .how-it-works-div .steps-img img {
+    padding-top: 45px;
+}
+
+.wrapper .how-it-works-div .work-steps {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.wrapper .how-it-works-div .work-steps li {
+    margin-bottom: 35px;
+}
+
+.wrapper .how-it-works-div .work-steps li p {
+    margin: 0;
+}
+
+.steps-tittle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.steps-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.5;
+}

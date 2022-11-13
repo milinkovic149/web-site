@@ -1,0 +1,27 @@
+.footer-section {
+    display: flex;
+    align-items: center;
+    min-height: 143px;
+    background-color: #1F1E24;
+}
+
+.footer-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 0.6;
+    color: white;
+    margin: 0 137px 0 0;
+}
+
+.footer-section .logo-div img {
+    width: 242px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-text {
+        margin: 10px 20px 0 0;
+    }
+}

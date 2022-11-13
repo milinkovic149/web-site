@@ -1,0 +1,67 @@
+.hero-section {
+    background-image: url('../assets/hero-background.png');
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 669px;
+}
+
+
+.hero-section .hero-items {
+    padding-top: 100px;
+}
+
+.hero-section .hero-items .tittle {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.06em;
+    ;
+    line-height: 66px;
+}
+
+.hero-section .hero-items .hero-decription p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    max-width: 567px;
+}
+
+.hero-section .hero-items .btn-div button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #0A84FF;
+    border: none;
+    border-radius: 10px !important;
+    padding: 0 64px 0 64px;
+    color: white;
+    margin-top: 50px !important;
+    width: 264px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .hero-section {
+        background-position: center;
+    }
+
+    .hero-section .hero-items {
+        background-color: rgba(247, 247, 247, 0.5);
+    }
+
+    .hero-section .hero-items .btn-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .hero-section .hero-items .tittle {
+        font-size: 50px;
+    }
+
+}

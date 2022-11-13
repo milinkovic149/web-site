@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+}
+
+.heading-2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.low-opacity-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.6;
+    margin: 0;
+}

@@ -1,0 +1,66 @@
+.download-section {
+    min-height: 522px;
+    background-color: #F7F7F7;
+    padding-top: 57px;
+}
+
+.download-section .mobiles-div img {
+    padding: 0;
+}
+
+.download-section .download-tittle-div {
+    padding-top: 93px;
+}
+
+.download-section .download-description-div {
+    padding-top: 25px;
+}
+
+.download-section .download-btns {
+    padding-top: 50px;
+}
+
+.download-section .download-btns .google-btn {
+    border: none;
+    margin-right: 20px;
+}
+
+.download-section .download-btns .iStore-btn {
+    border: none;
+}
+
+.download-section .download-btns img {
+    padding: 0;
+}
+
+.download-section .mobiles-div {
+    max-width: 367px;
+}
+
+.download-section .mobiles-div img {
+    width: 100%;
+}
+
+.download-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.6;
+    margin: 0;
+}
+
+.blue-text {
+    color: #0A84FF;
+}
+
+@media only screen and (max-width: 1024px) {
+    .download-btns {
+        padding: 40px 0 40px 0;
+    }
+
+    .google-btn {
+        margin-bottom: 10px;
+    }
+}
